@@ -7,3 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+piston = "0.52.0"
+piston_window = "0.112.0"
+image = "0.23.9"
+vecmath = "1.0.0"

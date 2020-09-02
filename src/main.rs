@@ -78,6 +78,8 @@ fn main() {
     let mut glyphs = window.load_font("assets\\sarasa-term-sc-regular.ttf").unwrap();
 
     while let Some(event) = window.next() {
+
+
         match current_scene {
             Scenes::MainMenu => {
                 window.draw_2d(&event, |context, gfx, device| {
